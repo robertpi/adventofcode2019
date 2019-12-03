@@ -4,7 +4,7 @@
       acc
       (next-line-it (cons line acc) file))))
 
-(define masses (call-with-input-file "C:\\code\\adventofcode\\day1\\input.txt"  (lambda (in) (next-line-it '() in))))
+(define masses (call-with-input-file "C:\\code\\adventofcode2019\\day1\\input.txt"  (lambda (in) (next-line-it '() in))))
 
 (define fuel 
     (map (lambda (i) 
