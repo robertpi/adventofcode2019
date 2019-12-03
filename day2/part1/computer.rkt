@@ -1,21 +1,4 @@
 
-; (define (m x)
-;     (match x
-;       [(list a b c)
-;        #:when (= 6 (+ a b c))
-;        'sum-is-six]
-;       [(list a b c) 'sum-is-not-six]))
-; (m '(1 2 3))
-
-; (define (matcher x)
-;     (match x
-;     [1 'one]
-;     [2 'two]
-;     [3 'three]))
-
-; (matcher 1)
-
-
 (define computer-input-string (call-with-input-file "C:\\code\\adventofcode2019\\day2\\input.txt" read-line))
 
 (define memory (map string->number (string-split computer-input-string ",")))
